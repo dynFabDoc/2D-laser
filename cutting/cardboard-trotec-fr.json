@@ -1,1 +1,70 @@
-{}
+{
+	"title":"Découpe de carton avec laser Trotec",
+	"instructions":[
+		{
+			"id":"launch",
+			"action":"custom",
+			"content":"Démarrer la machine"
+		},
+		{
+			"action":"custom",
+			"content":"Mettre le carton"
+		},
+		{
+			"action":"custom",
+			"content":"Calibrer la machine"
+		},
+		{
+			"action":"custom",
+			"content":"Positionner la tête à l'endroit souhaité"
+		},
+		{
+			"id":"openfile",
+			"action":"custom",
+			"content":"Ouvrir le fichier dans le logiciel habituel"
+		},
+		{
+			"action":"menu",
+			"options":"Fichier|Imprimer",
+			"shortcut":"CTRL+P"
+		},
+		{
+			"action":"mouseClick",
+			"where":"Préférences"
+		},
+		{
+			"action":"custom",
+			"content":"Sélectionner Papier dans Matériau"
+		},
+		{
+			"action":"custom",
+			"content":"Sélectionner Carton épais (6mm)"
+		},
+		{
+			"action":"mouseClick",
+			"where":"le gros bouton en bas",
+			"to":"valider"
+		},
+		{
+			"action":"mouseClick",
+			"where":"Imprimer"
+		},
+		{
+			"action":"mouseClick",
+			"where":"Connecter la machine (bouton en bas à droite)"
+		},
+		{
+			"action":"custom",
+			"content":"Double-cliquer sur l'objet à ajouter à la découpe"
+		},
+		{
+			"action":"custom",
+			"content":"Glisser l'objet à découper sur l'écran"
+		},
+		{
+			"action":"custom",
+			"content":"Lancer la découpe"
+		}
+		
+	]
+}
