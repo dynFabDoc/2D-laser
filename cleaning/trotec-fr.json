@@ -1,1 +1,17 @@
- 
+{
+	"title":"Nettoyage d'une machine laser Trotec",
+	"instructions":[
+  {
+			"action":"custom",
+			"content":"Mettre des équipements de protections (masque, lunettes, gants)"
+		},
+		{
+			"action":"custom",
+			"content":"Mettre le filtre dans un grand sac poubelle"
+		},
+		{
+			"action":"custom",
+			"content":"Retourner complétement le filtre et le taper au sol"
+		}
+	]
+}
